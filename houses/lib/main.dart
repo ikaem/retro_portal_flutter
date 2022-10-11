@@ -10,7 +10,7 @@ void main() async {
   final double screenWidth = window.physicalSize.width;
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       title: "Design 1",
       // he basically composes theme data here
       theme: ThemeData(
