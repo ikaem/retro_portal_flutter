@@ -97,6 +97,7 @@ class LandingPage extends StatelessWidget {
                     child: Padding(
                       padding: sidePadding,
                       child: ListView.builder(
+                        physics: const BouncingScrollPhysics(),
                         itemCount: 2,
                         itemBuilder: (context, index) {
                           // return const Text("item");
@@ -114,7 +115,7 @@ class LandingPage extends StatelessWidget {
                 bottom: 10,
                 width: MediaQuery.of(context).size.width,
                 // left: MediaQuery.of(context).size.width / 2 - 37,
-                child: Center(
+                child: const Center(
                   child: OptionButton(
                     icon: Icons.map,
                     text: "Map View",
