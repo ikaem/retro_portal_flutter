@@ -98,7 +98,7 @@ class SearchQuery extends StatelessWidget {
                     ),
                   ),
                 ),
-              )
+              ),
             ],
           ),
         )

@@ -1,3 +1,4 @@
+import 'package:design_2/src/widgets/food_choice.dart';
 import 'package:design_2/src/widgets/search_query.dart';
 import 'package:flutter/material.dart';
 
@@ -29,6 +30,10 @@ class _LandingScreenState extends State<LandingScreen> {
                     child: SearchQuery(
                       focusNode: _focusNode,
                     ),
+                  ),
+                  FoodChoice(
+                    width: constraints.maxWidth,
+                    focusNode: _focusNode,
                   ),
                 ],
               ),
